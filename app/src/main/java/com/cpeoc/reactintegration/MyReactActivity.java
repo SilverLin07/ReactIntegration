@@ -31,7 +31,7 @@ public class MyReactActivity extends AppCompatActivity implements DefaultHardwar
         mReactInstanceManager = ReactInstanceManager.builder()
                 .setApplication(getApplication())
                 .setBundleAssetName("index.android.bundle")
-                .setJSMainModulePath("index")
+                .setJSMainModulePath("index.android")
                 .addPackage(new MainReactPackage())
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
                 .setInitialLifecycleState(LifecycleState.RESUMED)

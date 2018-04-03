@@ -5,7 +5,7 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.hello}>Hello, World! My friend.Is it alright now?</Text>
+        <Text style={styles.hello}>My friend.Is it alright now?I cant believe</Text>
       </View>
     );
   }
